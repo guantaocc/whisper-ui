@@ -1,0 +1,31 @@
+{
+  "name": "@whisper-ui/lint-create-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "lint-create": "bin/index.js"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^7.2.0",
+    "cross-spawn": "^7.0.3",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@whisper-ui/eslint-config": "workspace:^1.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.35.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4"
+  }
+}
