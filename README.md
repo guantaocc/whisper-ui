@@ -1,17 +1,18 @@
 <h1 align="center">
-    <img src="http://121.36.100.147:9000/test/logo-horizontal.png">
+    <img src="http://120.48.30.252:3000/pic/logo.png">
 </h1>
-<!-- <p align="center">
+<p align="center">
     <a href="#">
-        <img src="https://img.shields.io/github/package-json/v/huccct/tass-ui">
+        <img src="https://img.shields.io/github/package-json/v/guantaocc/whisper-ui">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/stars/huccct/tass-ui">
+        <img src="https://img.shields.io/github/stars/guantaocc/whisper-ui">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/license/huccct/tass-ui">
+        <img src="https://img.shields.io/github/license/guantaocc/whisper-ui">
     </a>
-</p> -->
+</p>
+
 
 * 💪 Vue 3 Composition API
 * 🔥 Written in TypeScript
@@ -47,10 +48,7 @@ pnpm install
 ```
 pnpm run dev
 ```
-### 打包组件库
-```
-pnpm run build:components
-```
+
 ### 启动文档
 ```
 pnpm run docs:dev
