@@ -1,3 +1,3 @@
-export const isNumber = (val: any) => typeof val === 'number';
-export const isString = (val: any) => typeof val === 'string';
-export const isFunction = (val: any) => typeof val === 'function';
+export const isNumber = (val: unknown) => typeof val === 'number';
+export const isString = (val: unknown) => typeof val === 'string';
+export const isFunction = (val: unknown) => typeof val === 'function';

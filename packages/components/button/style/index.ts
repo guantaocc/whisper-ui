@@ -1,1 +1,1 @@
-import "@whisper-ui/theme-chalk/src/button.scss";
+import '@whisper-ui/theme-chalk/src/button.scss';
