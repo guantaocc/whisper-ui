@@ -6,7 +6,7 @@ export default {
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: false, 
+    siteTitle: false,
     nav: [
       { text: '指南', link: '/guide/install' },
       { text: '组件', link: '/components/button/' }
@@ -27,7 +27,7 @@ export default {
           text: '基本',
           items: [
             { text: 'Button 按钮', link: '/components/button/' },
-            { text: 'Grid 栅格', link: '/components/grid/' },
+            { text: 'Grid 栅格', link: '/components/grid/' }
             // { text: 'Icon 图标', link: '/components/icon/' }
           ]
         }
@@ -86,6 +86,5 @@ export default {
         }
       }
     }
-  },
- 
+  }
 };

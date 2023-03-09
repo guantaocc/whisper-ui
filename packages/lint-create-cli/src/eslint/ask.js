@@ -9,18 +9,18 @@ async function askForFrame() {
       choices: [
         {
           name: 'React',
-          value: 'react',
+          value: 'react'
         },
         {
           name: 'Vue',
-          value: 'vue',
+          value: 'vue'
         },
         {
           name: 'None',
-          value: '',
-        },
-      ],
-    },
+          value: ''
+        }
+      ]
+    }
   ]);
 
   return frame;
@@ -34,14 +34,14 @@ async function askForLanguage() {
       choices: [
         {
           name: 'JavaScript',
-          value: 'javascript',
+          value: 'javascript'
         },
         {
           name: 'TypeScript',
-          value: 'typescript',
-        },
-      ],
-    },
+          value: 'typescript'
+        }
+      ]
+    }
   ]);
 
   return language;
@@ -49,5 +49,5 @@ async function askForLanguage() {
 
 module.exports = {
   askForLanguage,
-  askForFrame,
+  askForFrame
 };

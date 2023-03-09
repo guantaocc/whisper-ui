@@ -18,14 +18,12 @@ module.exports = async function () {
   program.on('--help', () => {
     console.log();
     console.log(
-      `  Run ${chalk.cyan(
-        'line-create <command> --help'
-      )} for detailed usage of given command.`
+      `  Run ${chalk.cyan('line-create <command> --help')} for detailed usage of given command.`
     );
     console.log();
   });
 
-  program.commands.forEach((c) => c.on('--help', () => console.log()));
+  program.commands.forEach(c => c.on('--help', () => console.log()));
 
   program.parse(process.argv);
 };

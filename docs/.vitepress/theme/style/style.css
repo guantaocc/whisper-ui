@@ -25,14 +25,13 @@ body[scroll],
   font-size: 16px;
 }
 
-
-.example{
+.example {
   border: 1px solid #f5f5f5;
   border-radius: 5px;
   padding: 20px;
 }
 .tass-button {
-  margin:10px 5px;
+  margin: 10px 5px;
 }
 
 details > summary:first-of-type {

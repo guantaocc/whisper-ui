@@ -3,8 +3,7 @@
 @use './common/var.scss' as *;
 @use './mixins/button' as *;
 
-
-@include b(button){
+@include b(button) {
   display: inline-flex;
   display: inline-flex;
   justify-content: center;

@@ -18,11 +18,7 @@ module.exports = async () => {
   // 写 .eslintrc.js 文件
   fs.writeFileSync(
     path.join(process.cwd(), '.eslintrc.js'),
-    `module.exports = ${JSON.stringify(
-      eslintrcConfig(type),
-      null,
-      2
-    ).replaceAll('\\\\', '\/')}`
+    `module.exports = ${JSON.stringify(eslintrcConfig(type), null, 2).replaceAll('\\\\', '/')}`
   );
 
   // TODO: eslint ignore

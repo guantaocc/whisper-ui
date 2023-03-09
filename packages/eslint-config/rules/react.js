@@ -15,8 +15,8 @@ module.exports = {
       'error',
       {
         allowAllCaps: true,
-        ignore: [],
-      },
+        ignore: []
+      }
     ],
     // 声明的 state 必须被使用
     'react/no-unused-state': 'error',
@@ -29,8 +29,8 @@ module.exports = {
       'error',
       {
         customValidators: [],
-        skipShapeProps: true,
-      },
+        skipShapeProps: true
+      }
     ],
     // render 方法必须要有返回值
     'react/require-render-return': 'error',
@@ -39,17 +39,17 @@ module.exports = {
     // 检查 react hooks 规范
     // @link https://reactjs.org/docs/hooks-rules.html
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'warn'
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json'],
-      },
+        extensions: ['.js', '.jsx', '.json']
+      }
     },
     react: {
       pragma: 'React',
-      version: 'detect',
-    },
-  },
+      version: 'detect'
+    }
+  }
 };

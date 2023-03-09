@@ -1,6 +1,6 @@
 import button from './src/button.vue';
 
-import { withInstall } from '@whisper-ui/utils/withInstall';
+import { withInstall } from '@whisper-ui/utils';
 
 export const WhisperButton = withInstall(button);
 

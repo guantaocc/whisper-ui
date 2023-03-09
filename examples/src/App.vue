@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { WhisperButton } from '@whisper-ui/components';
-
+  import { WhisperButton } from '@whisper-ui/components';
 </script>
 
 <template>
@@ -13,5 +12,4 @@ import { WhisperButton } from '@whisper-ui/components';
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

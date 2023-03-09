@@ -12,26 +12,27 @@ const configPkgPath = {
   'javascript/react': 'react',
   typescript: 'typescript',
   'typescript/vue': 'typescript/vue',
-  'typescript/react': 'typescript/react',
+  'typescript/react': 'typescript/react'
 };
 
 const needDeps = {
-  javascript: ['eslint', '@babel/core', '@babel/eslint-parser', '@whisper-ui/eslint-config@workspace:*'],
-  typescript: [
-    'typescript',
-    '@typescript-eslint/eslint-plugin',
-    '@typescript-eslint/parser',
+  javascript: [
+    'eslint',
+    '@babel/core',
+    '@babel/eslint-parser',
+    '@whisper-ui/eslint-config@workspace:*'
   ],
+  typescript: ['typescript', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser'],
   react: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
-  vue: ['eslint-plugin-vue', 'vue-eslint-parser'],
+  vue: ['eslint-plugin-vue', 'vue-eslint-parser']
 };
 
-const eslintrcConfig = (type) => ({
+const eslintrcConfig = type => ({
   root: true,
-  extends: path.join(configPkgName, configPkgPath[type]),
+  extends: path.join(configPkgName, configPkgPath[type])
 });
 
 module.exports = {
   eslintrcConfig,
-  needDeps,
+  needDeps
 };

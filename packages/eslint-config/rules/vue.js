@@ -16,6 +16,6 @@ module.exports = {
     // 禁止注册没有使用的组件
     'vue/no-unused-components': 'warn',
     // render 函数必须有返回值
-    'vue/require-render-return': 'error',
-  },
+    'vue/require-render-return': 'error'
+  }
 };

@@ -1,7 +1,6 @@
 import type { ExtractPropTypes, PropType } from 'vue';
 import type { ButtonNativeType, ButtonSizeType, ButtonType } from './interface';
 
-
 export const Props = {
   type: {
     type: String as PropType<ButtonType>,

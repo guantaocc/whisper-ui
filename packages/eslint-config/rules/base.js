@@ -13,8 +13,8 @@ module.exports = {
         args: 'none',
         caughtErrors: 'none',
         ignoreRestSiblings: true,
-        vars: 'all',
-      },
+        vars: 'all'
+      }
     ],
     // 推荐使用模板字符串
     'prefer-template': 'warn',
@@ -58,10 +58,10 @@ module.exports = {
           'JSXClosingFragment',
           'JSXText',
           'JSXEmptyExpression',
-          'JSXSpreadChild',
+          'JSXSpreadChild'
         ],
-        offsetTernaryExpressions: true,
-      },
-    ],
-  },
+        offsetTernaryExpressions: true
+      }
+    ]
+  }
 };

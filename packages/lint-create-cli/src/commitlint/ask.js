@@ -9,11 +9,11 @@ async function askForCommitlint() {
       choices: [
         new inquirer.Separator(' = The Commitlint = '),
         {
-          name: '是',
+          name: '是'
         },
         {
-          name: '否',
-        },
+          name: '否'
+        }
       ],
       validate(answer) {
         if (answer.length < 1) {
@@ -21,7 +21,7 @@ async function askForCommitlint() {
         }
 
         return true;
-      },
+      }
     }
   ]);
 
@@ -29,5 +29,5 @@ async function askForCommitlint() {
 }
 
 module.exports = {
-  askForCommitlint,
+  askForCommitlint
 };
