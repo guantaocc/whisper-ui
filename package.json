@@ -1,8 +1,21 @@
 {
   "name": "whisper-ui",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "a vue3 ui component",
-  "main": "index.js",
+  "main": "lib/index",
+  "module": "es/index",
+  "files": [
+    "build/es/*",
+    "build/lib/*"
+  ],
+  "keywords": [
+    "whisper-ui",
+    "vue3组件库",
+    "vue ui",
+    "components"
+  ],
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "commit": "cz",
     "postinstall": "husky install",
@@ -18,9 +31,6 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
@@ -38,6 +48,7 @@
     "@babel/eslint-parser": "^7.19.1",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@types/codemirror": "^5.60.7",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "@whisper-ui/eslint-config": "workspace:^1.0.0",

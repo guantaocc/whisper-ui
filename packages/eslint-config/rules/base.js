@@ -7,15 +7,7 @@ module.exports = {
     // 优先使用 const 而不是 let
     'prefer-const': ['error', { destructuring: 'all' }],
     // 声明的变量必须被使用
-    'no-unused-vars': [
-      'error',
-      {
-        args: 'none',
-        caughtErrors: 'none',
-        ignoreRestSiblings: true,
-        vars: 'all'
-      }
-    ],
+    'no-unused-vars': 'error',
     // 推荐使用模板字符串
     'prefer-template': 'warn',
     // 使用分号结尾

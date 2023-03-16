@@ -1,0 +1,56 @@
+@use './mixins/mixins.scss' as *;
+@use './mixins/utils.scss' as *;
+@use './common/var.scss' as *;
+
+@include b(message-input) {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  .cm-field-value {
+    display: inline-block;
+    margin: 2px 4px;
+    padding: 3px 10px;
+    color: #0089ff;
+    background: rgba(0, 137, 255, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  @include m(popoverButton) {
+    position: absolute;
+    z-index: 19;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(17, 31, 44, 0.12);
+    color: #171a1d;
+    cursor: pointer;
+  }
+  .CodeMirror {
+    height: 100px;
+    margin-top: 4px;
+    padding: 6px 12px;
+    direction: ltr;
+    border: 1px solid rgba(17, 31, 44, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgba(17, 31, 44, 0.85);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 22px;
+    background-color: rgba(25, 31, 37, 0.16);
+    min-height: 30px;
+  }
+  ::selection {
+    color: #fff;
+    background: #0089ff;
+  }
+}

@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@whisper-ui/theme-chalk": "workspace:^1.0.0",
-    "@whisper-ui/utils": "workspace:^1.0.0"
+    "@whisper-ui/utils": "workspace:^1.0.0",
+    "codemirror": "5.65.12"
   }
 }

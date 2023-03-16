@@ -9,7 +9,7 @@
     // "allowJs": true,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
-    "types": ["node"],
+    "types": ["node", "codemirror"],
     "rootDir": ".",
     "moduleResolution": "node",
     "resolveJsonModule": true

@@ -7,10 +7,11 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
+    'no-unused-vars': 0,
     // 禁止使用 any
     '@typescript-eslint/no-explicit-any': 'warn',
     // 禁止出现空的 interface
-    '@typescript-eslint/no-empty-interface': 'warn'
+    '@typescript-eslint/no-empty-interface': 'warn',
   },
   overrides: [
     {
